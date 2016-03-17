@@ -1,0 +1,44 @@
+group 'bookshelf-gradle'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'jetty'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile(
+            'org.springframework:spring-webmvc:4.0.6.RELEASE',
+            'org.springframework:spring-tx:4.0.6.RELEASE',
+            'org.springframework:spring-orm:4.0.6.RELEASE',
+            'org.springframework:spring-jdbc:4.0.6.RELEASE',
+            'commons-dbcp:commons-dbcp:1.4',
+            'mysql:mysql-connector-java:5.1.31',
+            'org.eclipse.persistence:javax.persistence:2.1.0',
+            "org.hibernate:hibernate-core:4.2.1.Final",
+            'org.hibernate.common:hibernate-commons-annotations:4.0.5.Final',
+            'org.aspectj:aspectjweaver:1.8.8',
+            'jstl:jstl:1.2',
+            'log4j:log4j:1.2.17',
+            'org.slf4j:slf4j-api:1.7.14',
+            'org.slf4j:slf4j-log4j12:1.7.14',
+            'net.sf.ezmorph:ezmorph:1.0.6',
+            'commons-collections:commons-collections:3.2.1',
+            'commons-beanutils:commons-beanutils:1.8.3',
+            'com.fasterxml.jackson.core:jackson-core:2.6.3',
+            'com.fasterxml.jackson.core:jackson-annotations:2.6.3',
+            'com.fasterxml.jackson.core:jackson-databind:2.6.3'
+
+    )
+    testCompile 'junit:junit:4.12'
+
+}
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+

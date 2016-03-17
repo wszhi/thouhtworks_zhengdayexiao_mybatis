@@ -1,0 +1,246 @@
+body{
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+body h1 {
+	word-wrap: break-word;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #494949;
+    margin: 0;
+    padding: 0 0 15px 0;
+    line-height: 1.1;
+}
+body h4 {
+	margin: 0;
+	font-size: 16px;
+	color: #37a;
+
+}
+body p {
+	margin-bottom: 10px;
+}
+
+body ul {
+	padding: 0;
+	list-style-type: none;
+	display: block;
+}
+.logo, .nav-items, .nav-search{
+	float: left;
+}
+.logo{
+	margin-top: -30px;
+	width: 200px;
+	height: 100px;
+}
+.nav{
+	background-color: #F0F8FF;
+	height: 70px;
+	padding-top: 30px;
+	display: block;
+}
+.nav a,.nav-items ul li{
+	font-size: 18px;
+	color: #2E8B57;
+	margin-left: 20px;
+	width: 80px;
+	float: left;
+}
+.books {
+	margin: 20px 200px 20px 180px;
+}
+.books h1{
+	float: left;
+}
+.search{
+	float: right;
+}
+.search #search-content{
+	width: 300px;
+	height: 30px;
+	padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+.search #search-btn{
+	height: 35px;
+    border: none;
+    background-color: #27a;
+    color: #fff;
+    width: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: -50px;
+    vertical-align: bottom;
+}
+#books ul{
+	display: inline-block;
+}
+.books ul li {
+	border-top: 1px dashed #E8E8E8;
+	padding: 30px 0;
+	min-height: 96px;
+	width: 300px;
+	height: 170px;
+	display: inline-block;
+	float: left;
+}
+
+.books img{
+	width: 100px;
+}
+.books .book-detail{
+	margin-top: -100px;
+	margin-left: 120px;
+}
+
+.books .book-info {
+	color: #666;
+}
+
+
+#top {
+	position: fixed;
+	right: 200px;
+	bottom: 20px;
+	color: #fff;
+	background-color: #27a;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+.books .load-more {
+    background-color: #27a;
+    border-radius: 4px;
+    color: white;
+    width: 360px;
+    display: block;
+    border: 0;
+    height: 33px;
+    margin: 0 auto;
+    outline: 0;
+    cursor: pointer;
+}
+
+.books #top:hover, .books .load-more:hover, .books #search-btn:hover{
+	background-color: #27c;
+}
+#book-moredetails{
+	font-family: Verdana;
+	font-size: 16px;
+	top:0px;
+	left: 0px;
+	width: 80%;
+	background-color: lemonchiffon;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+#book-moredetails img{
+	margin-left: 30px;
+}
+#book-moredetails .book-details{
+	margin-left: 150px;
+}
+.bg{
+	position:absolute;
+	filter:alpha(opacity=50);
+	background:#666;
+	opacity: 0.5;
+	left:0;
+	top:0;
+	height:1000px;
+	width:100%;
+}
+.loginbg {
+	background: #fff;
+	left: 30%;
+	width: 500px;
+	position: fixed;
+	top: 30%;
+	height:350px;
+	border-radius: 10px;
+	font-family: Verdana;
+	font-size: 20px;
+}
+input{
+	margin-left: 200px;
+	width: 300px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+}
+.buttonstyle,.yesorder,.noorder{
+	margin-top: 30px;
+	font-size: 16px;
+	height: 35px;
+	border: none;
+	background-color: #27a;
+	color: #fff;
+	width: 100px;
+	border-radius: 10px;
+}
+.loginhide{
+	width:100%;
+	background:#f1f1f1;
+	height:30px;
+	light-height:30px;
+	border-radius: 10px;
+	text-align:right;
+}
+.aasbutton{
+	text-decoration:none;
+	display: inline-block;
+	border: none;
+	height: 30px;
+	background-color: #27a;
+	color: #fff;
+	width: 100px;
+	border-radius:5px;
+}
+.headuser a,.headuser span{
+	font-size: 18px;
+	color: #2E8B57;
+	margin-left: 20px;
+	width: 100px;
+	float: left;
+}
+.onecarinfo{
+	font-family: Verdana;
+	font-size: 16px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.onecarinfo input{
+	width: 80px;
+	height: 30px;
+}
+.onecarinfo a{
+	padding-left: 20px;
+	text-decoration:none;
+	display: inline-block;
+	border: none;
+	height: 30px;
+	background-color: #27a;
+	color: #fff;
+	width: 70px;
+	border-radius:5px;
+}
+#cartlist img{
+	float: left;
+}
+#cartlist span{
+	display:inline-block;
+	width: 150px;
+}
